@@ -1,0 +1,66 @@
+body {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    font: 100% 'Yanone Kaffeesatz', arial, serif;
+}
+
+
+/* Outside Wrapper */
+#wrapper {
+    background-color: #fff;
+    color: #000;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+/* Header */
+
+#headercanvas {
+    width: 980px;
+    position:relative;
+    left: -10px;
+    height: 90px;
+    background-color: #000;
+}
+
+/* Navigation */
+nav ul {
+    width: 80%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.nav-home {
+    background: url('/images/house.png') no-repeat top left;
+}
+.nav-blog {
+    background: url('/images/posterous.png') no-repeat top left;
+}
+.nav-linkedin {
+    background: url('/images/linkedin.png') no-repeat top left;
+}
+.nav-github {
+    background: url('/images/git.png') no-repeat top left;
+}
+.nav-twitter {
+    background: url('/images/twitter.png') no-repeat top left;
+}
+.nav-contact {
+    background: url('/images/email.png') no-repeat top left;
+}
